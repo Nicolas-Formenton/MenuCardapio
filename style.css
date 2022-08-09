@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    color: #56290C;
+    padding: 0 0 32px;
+    text-align: center;
+}
+
+header img{
+    width: 120px;
+    height: 120px;
+}
+
+header,
+section{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+span{
+    color: #b07124;
+    font-style: italic;
+}
+
+.subtitle {
+    color: #56290C;
+    font-size: medium;
+    font-style: italic;
+}
+
+header h1{
+    margin-bottom: 4px;
+}
+
+section h2{
+    color: #56290C;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #fed2a0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #b07124;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+body{
+    margin: 50px auto 50px;
+    width: 350px;
+    background-color: blanchedalmond;
+}
+
+.price{
+    font-size: 17px;
+    text-align: center;
+    width: 65px;
+    height: fit-content;
+    margin-left: auto;
+    padding: 2px;
+    color: #b07124;
+    font-weight: 900;
+    border: 1.5px solid #b07124;
+    border-radius: 8px;
+}
+
+ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details{
+    max-width: 240px;
+}
+
+.details h3{
+    margin-bottom: 8px;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b07124e1;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFEBCD;
+    border-radius: 20px;
+ }
